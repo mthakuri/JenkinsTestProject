@@ -38,7 +38,6 @@ public class GalleryActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         init();
-
         fetchPictures();
     }
 
